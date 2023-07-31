@@ -1,0 +1,70 @@
+{
+  "name": "tectonics",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@cyntler/react-doc-viewer": "^1.13.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.13.1",
+    "@types/node": "^15.14.9",
+    "@types/react": "^17.0.53",
+    "@types/react-dom": "^17.0.18",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/styled-components": "^5.1.26",
+    "@types/three": "^0.154.0",
+    "ajv": "^8.12.0",
+    "antd": "^4.24.7",
+    "axios": "^0.21.4",
+    "docxtemplater": "^3.37.7",
+    "file-saver": "^2.0.5",
+    "i18next": "^19.9.2",
+    "i18next-browser-languagedetector": "^6.1.8",
+    "i18next-xhr-backend": "^3.2.2",
+    "moment": "^2.29.4",
+    "react": "^18.2.0",
+    "react-awesome-reveal": "^3.8.1",
+    "react-big-calendar": "^1.8.1",
+    "react-calendar": "^4.2.1",
+    "react-doc-viewer": "^0.1.5",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^11.18.6",
+    "react-icons": "^4.8.0",
+    "react-pdf": "^6.2.2",
+    "react-router-dom": "^5.3.4",
+    "react-scripts": "5.0.1",
+    "react-tsparticles": "^2.11.0",
+    "styled-components": "^5.3.6",
+    "three": "^0.154.0",
+    "tsparticles": "^2.11.0",
+    "tsparticles-engine": "^2.11.0",
+    "tsparticles-preset-triangles": "^2.11.0",
+    "typescript": "^4.9.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/file-saver": "^2.0.5",
+    "@types/react-big-calendar": "^1.6.4",
+    "@types/react-calendar": "^4.1.0"
+  }
+}
