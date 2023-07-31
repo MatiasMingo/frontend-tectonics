@@ -6,15 +6,21 @@ export const MiddleBlockSection = styled("section")`
   text-align: center;
   display: flex;
   justify-content: center;
-  margin-bottom: 25vh;
+  margin-bottom: 30vh;
+  margin-top: 10vh;
 
   @media screen and (max-width: 1024px) {
     padding: 5.5rem 0 3rem;
   }
+
+  @media (min-width: 250px) and (max-width: 600px) {
+    margin-bottom: 20vh;
+    margin-top: -5vh;
+  }
 `;
 
 export const Title = styled("h6")`
-  font-size: 3em;
+  font-size: 3.5em;
   color: #000000;
 `;
 

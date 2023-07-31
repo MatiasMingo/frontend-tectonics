@@ -43,7 +43,7 @@ const GridBlocks = ({ t }: any) => {
 
   return (
     <div id={"work"} style={{paddingTop: "5vh"}}>
-      <H5 style={{textAlign: 'center'}}>Our work</H5>
+      <H5 style={{textAlign: 'center'}}>{t('Our work')}</H5>
       <CustomRow justify="space-between" align="middle">
         <CustomCol lg={9} md={8} sm={9} xs={11} style={{ cursor: 'pointer', paddingTop: "2vh" }} onClick={handleDeepCommuneClick}>
         <SvgIcon src="deepcommune_logo.svg" width="110px" height="50px" />

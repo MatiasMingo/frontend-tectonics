@@ -61,7 +61,7 @@ export const ContentWrapper = styled("div")`
 `;
 
 export const H5 = styled("h5")`
-  font-size: 1.9em;
+  font-size: 3em;
   color: #000000;
   margin-bottom: 5vh;
 `;
@@ -69,9 +69,15 @@ export const H5 = styled("h5")`
 export const H6 = styled("h6")`
   font-size: 1.4em;
   color: #000000;
+  @media (min-width: 250px) and (max-width: 600px) {
+    font-size: 1.2em;
+  }
 `;
 
 export const H7 = styled("h6")`
   font-size: 0.9em;
   color: #fcf3f6;
+  @media (min-width: 250px) and (max-width: 600px) {
+    font-size: 0.8em;
+  }
 `;

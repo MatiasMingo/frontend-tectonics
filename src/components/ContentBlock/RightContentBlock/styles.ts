@@ -34,7 +34,7 @@ export const RightBlockContainer = styled("section")`
   @media (min-width: 250px) and (max-width: 600px) {
     font-size: 0.8em;
     width: 50vw;
-    margin-top:0vh;
+    margin-top:-25vh;
   }
 `;
 
@@ -46,8 +46,10 @@ export const Content = styled("p")`
   width: 35vw;
   @media (min-width: 250px) and (max-width: 600px) {
     width: 70vw;
-    font-size: 1.5em;
-    margin-top: 5vh;
+    font-size: 2em;
+    margin-top: 35vh;
+    text-align: right;
+    margin-left: 20vw;
   }
 `;
 
@@ -65,11 +67,22 @@ export const ContentWrapper = styled("div")`
 
 export const H6 = styled("h6")`
   color: #fcf3f6;
-  font-size: 2.4em;
-  margin-top: 10vh;
+  font-size: 2.6em;
+  margin-top: 7vh;
   width: 40vw;
   @media (min-width: 250px) and (max-width: 600px) {
-    font-size: 2em;
-    width: 60vw;
+    font-size: 3em;
+    width: 90vw;
+    text-align: center;
+    margin-top: 20vh;
+  }
+`;
+
+export const CustomImg = styled("img")`
+  width: 40vw;
+  @media (min-width: 250px) and (max-width: 600px) {
+    width: 90vw;
+    margin-left: -31.5vw;
+    margin-top: 15vh;
   }
 `;

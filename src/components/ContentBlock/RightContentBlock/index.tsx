@@ -10,6 +10,7 @@ import {
   ContentWrapper,
   H6,
   CustomCol,
+  CustomImg
 } from "./styles";
 
 const RightBlock = ({
@@ -32,7 +33,7 @@ const RightBlock = ({
           </Col>
           <Col lg={11} md={11} sm={11} xs={11}>
             <ContentWrapper style={{marginLeft: "5vw"}}>
-              <img src={`/img/animations/tectonics.gif`} alt={"Tectonics"} width="500px" height="250px"/>
+              <CustomImg src={`/img/animations/tectonics.gif`} alt={"Tectonics"}/>
             </ContentWrapper>
           </Col>
         </Row>

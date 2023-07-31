@@ -3,6 +3,7 @@ import { withTranslation } from "react-i18next";
 import { Slide } from "react-awesome-reveal";
 import { Button } from "../../common/Button";
 import { MiddleBlockSection, Content, ContentWrapper, Title } from "./styles";
+import {AiOutlineCode} from 'react-icons/ai';
 
 interface MiddleBlockProps {
   title: string;
@@ -25,6 +26,7 @@ const MiddleBlockFirst = ({ title, content, button, t }: MiddleBlockProps) => {
           <ContentWrapper>
             <Col lg={24} md={24} sm={24} xs={24}>
               <Title>{t(title)}</Title>
+              
               <Content>{t(content)}</Content>
               {button && (
                 <Button name="submit" onClick={() => scrollTo("work")}>
