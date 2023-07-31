@@ -45,12 +45,12 @@ const GridBlocks = ({ t }: any) => {
     <div id={"work"} style={{paddingTop: "5vh"}}>
       <H5 style={{textAlign: 'center'}}>Our work</H5>
       <CustomRow justify="space-between" align="middle">
-        <CustomCol lg={9} md={8} sm={9} xs={11} style={{ cursor: 'pointer' }} onClick={handleDeepCommuneClick}>
+        <CustomCol lg={9} md={8} sm={9} xs={11} style={{ cursor: 'pointer', paddingTop: "2vh" }} onClick={handleDeepCommuneClick}>
         <SvgIcon src="deepcommune_logo.svg" width="110px" height="50px" />
           <H6>{t("DeepCommune")}</H6>
           <H7>A.I.</H7>
         </CustomCol>
-        <CustomCol lg={9} md={8} sm={9} xs={11} style={{ cursor: 'pointer' }} onClick={handleJustForFundClick}>
+        <CustomCol lg={9} md={8} sm={9} xs={11} style={{ cursor: 'pointer', paddingTop: "1vh" }} onClick={handleJustForFundClick}>
         <SvgIcon src="justforfund_logo.svg" width="80px" height="60px" />
           <H6>{t("JustForFund")}</H6>
           <H7>FinTech</H7>
@@ -62,7 +62,7 @@ const GridBlocks = ({ t }: any) => {
           <H6>{t("Lexrankit")}</H6>
           <H7>LegalTech</H7>
         </CustomCol>
-        <CustomCol lg={9} md={8} sm={9} xs={11} style={{ cursor: 'pointer' }} onClick={handleSubsoleClick}>
+        <CustomCol lg={9} md={8} sm={9} xs={11} style={{ cursor: 'pointer', paddingTop: "2vh" }} onClick={handleSubsoleClick}>
           <SvgIcon src="subsole_logo.svg" width="50px" height="50px" />
           <H6>{t("Subsole")}</H6>
           <H7>Modular Construction</H7>

@@ -67,11 +67,11 @@ export const H5 = styled("h5")`
 `;
 
 export const H6 = styled("h6")`
-  font-size: 1.2em;
+  font-size: 1.4em;
   color: #000000;
 `;
 
 export const H7 = styled("h6")`
-  font-size: 0.8em;
+  font-size: 0.9em;
   color: #fcf3f6;
 `;

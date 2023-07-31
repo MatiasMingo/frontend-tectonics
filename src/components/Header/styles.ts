@@ -45,7 +45,7 @@ export const ContactWrapper = styled("div")<any>`
 export const Logo = styled("h1")`
   margin-top: 3vh;
   color: #e7807c;
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-weight: 600;
   text-align: center;
 `;
@@ -128,4 +128,5 @@ export const LanguageSwitchContainer = styled("div")`
   display: flex;
   justify-content: space-between;
   width: 85px;
+  padding-top: 2vh;
 `;

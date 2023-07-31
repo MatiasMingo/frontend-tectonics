@@ -63,17 +63,6 @@ const Header = ({ t }: any) => {
     // User is authenticated, display logout link and Contacto button
     return (
       <>
-        <CustomNavLinkSmall onClick={handleLogout}>
-          <Span>{t("Logout")}</Span>
-        </CustomNavLinkSmall>
-        <CustomNavLinkSmall
-          style={{ width: "180px", marginLeft: "1rem" }}
-          onClick={() => scrollTo("contact")}
-        >
-          <Span>
-            <Button>{t("Contacto")}</Button>
-          </Span>
-        </CustomNavLinkSmall>
         <CustomNavLinkSmall>
           <LanguageSwitchContainer>
             <LanguageSwitch onClick={() => handleChange("en")}>
@@ -94,30 +83,16 @@ const Header = ({ t }: any) => {
     // User is not authenticated, display login and contact links
     return (
       <>
-        <CustomNavLinkSmall as={Link} to="/documentation">
-          <Span>{t("Documentation")}</Span>
-        </CustomNavLinkSmall>
-        <CustomNavLinkSmall as={Link} to="/login">
-          <Span>{t("Login")}</Span>
-        </CustomNavLinkSmall>
-        <CustomNavLinkSmall
-          style={{ width: "180px", marginLeft: "1rem" }}
-          onClick={() => scrollTo("contact")}
-        >
-          <Span>
-            <Button>{t("Contact")}</Button>
-          </Span>
-        </CustomNavLinkSmall>
         <CustomNavLinkSmall>
           <LanguageSwitchContainer>
             <LanguageSwitch onClick={() => handleChange("en")}>
             <svg height="30px" width="30px" style={{ borderRadius: '50%', border: '2px solid #e7807c' }}>
-              <text x="4px" y="18px" style={{fontSize: "0.8em"}}>EN</text>
+              <text x="4px" y="18px" style={{fontSize: "0.7em"}}>EN</text>
             </svg>
             </LanguageSwitch>
             <LanguageSwitch onClick={() => handleChange("es")}>
             <svg height="30px" width="30px" style={{ borderRadius: '50%', border: '2px solid #e7807c' }}>
-              <text x="5px" y="18px" style={{fontSize: "0.8em"}}>ES</text>
+              <text x="5px" y="18px" style={{fontSize: "0.7em"}}>ES</text>
             </svg>
             </LanguageSwitch>
           </LanguageSwitchContainer>
@@ -132,7 +107,7 @@ const Header = ({ t }: any) => {
       <Container>
         <Row justify="space-between">
           <LogoContainer to="/" aria-label="homepage">
-            <SvgIcon src="logo.svg" width="220px" height="200px" />
+            <SvgIcon src="logo.svg" width="200px" height="200px" />
           </LogoContainer>
           <NotHidden>
             <MenuItem />

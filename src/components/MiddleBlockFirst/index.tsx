@@ -11,7 +11,7 @@ interface MiddleBlockProps {
   t: any;
 }
 
-const MiddleBlock = ({ title, content, button, t }: MiddleBlockProps) => {
+const MiddleBlockFirst = ({ title, content, button, t }: MiddleBlockProps) => {
   const scrollTo = (id: string) => {
     const element = document.getElementById(id) as HTMLDivElement;
     element.scrollIntoView({
@@ -39,4 +39,4 @@ const MiddleBlock = ({ title, content, button, t }: MiddleBlockProps) => {
   );
 };
 
-export default withTranslation()(MiddleBlock);
+export default withTranslation()(MiddleBlockFirst);

@@ -8,7 +8,8 @@ import ContactContent from "../../content/ContactContent.json";
 import GridBlocks from "../../components/GridBlocks";
 
 const Contact = lazy(() => import("../../components/ContactForm"));
-const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
+const MiddleBlockFirst = lazy(() => import("../../components/MiddleBlockFirst"));
+const MiddleBlockSecond = lazy(() => import("../../components/MiddleBlockSecond"));
 const Container = lazy(() => import("../../common/Container"));
 const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
 const ContentBlock = lazy(() => import("../../components/ContentBlock"));
@@ -24,15 +25,15 @@ const Home = () => {
         icon="brain.svg"
         id="intro"
       />
-      <MiddleBlock
-        title={"Build your tech solution starting from our base templates"}
-        content={"After that we tailor it based on your objectives"}
+      <MiddleBlockFirst
+        title={"Anything you like"}
+        content={"If it has to do with programming we do it!"}
         button={"Explore"}
       />
       <GridBlocks />
-      <MiddleBlock
-        title={"Don't try to invent the wheel"}
-        content={"Save time and money when building your business"}
+      <MiddleBlockSecond
+        title={"We only use the best tools"}
+        content={"For building websites, mobile apps, ML models, data analytics and more."}
         button={"Explore"}
       />
       <Contact

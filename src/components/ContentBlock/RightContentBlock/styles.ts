@@ -42,7 +42,7 @@ export const Content = styled("p")`
   margin: 1.5rem 0 2rem 0;
   color: #000000;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 1.7em;
   width: 35vw;
   @media (min-width: 250px) and (max-width: 600px) {
     width: 70vw;

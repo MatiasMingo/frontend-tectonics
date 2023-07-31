@@ -8,7 +8,7 @@ import ContactContent from "../../content/ContactContent.json";
 import GovernmentGridBlocks from "../../components/GovernmentGridBlocks";
 
 const Contact = lazy(() => import("../../components/ContactForm"));
-const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
+const MiddleBlock = lazy(() => import("../../components/MiddleBlockFirst"));
 const Container = lazy(() => import("../../common/Container"));
 const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
 const ContentBlock = lazy(() => import("../../components/ContentBlock"));
